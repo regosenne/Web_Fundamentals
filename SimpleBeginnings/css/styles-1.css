@@ -1,0 +1,29 @@
+body {
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: navy;
+}
+
+p {
+    font-size: larger;
+}
+
+ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    border: 1px solid grey;
+}
+
+ul li {
+    margin: 10px;
+}
+
+em {
+    background-color: #ffffe0;
+    font-weight: bold;
+    font-family: sans-serif;
+}
