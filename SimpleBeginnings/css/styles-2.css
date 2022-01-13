@@ -1,0 +1,35 @@
+body {
+    margin-left: 20px;
+
+    background-color: #282a35;
+
+    font-family: monospace;
+
+    color: #84c754;
+
+}
+
+ul {
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+
+    padding: 10px;
+
+    font-size: 120%;
+
+    color: white;
+}
+
+li:hover {
+    color: black;
+
+    background-color: #84c754;
+}
