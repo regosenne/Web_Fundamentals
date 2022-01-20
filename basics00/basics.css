@@ -3,7 +3,7 @@
     --misty: #5c6164;
 }
 
-.tabs {
+#tabs {
     overflow: hidden;
     border: 3px solid;
 }
