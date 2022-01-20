@@ -1,11 +1,23 @@
 :root {
     --green: #00FF00;
+    --misty: #5c6164;
 }
 
 .tab {
     overflow: hidden;
     border: 3px solid;
 }
+
+button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
 
 
 .tabcontent {
@@ -15,16 +27,18 @@
     border-top: none;
 }
 
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    cursor: pointer;
-    padding: auto;
-    transition: 0.3s;
-    font-size: 17px;
+button:hover {
+    background-color: var(--green);
+}
+
+button:active {
+    background-color: blue;
+}
+
+h1 {
+    color : var(--green);
 }
 
 body {
-    background-color:#e75480;
+    background-color: var(--misty);
 }
