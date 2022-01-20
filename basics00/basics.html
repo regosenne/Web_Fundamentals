@@ -11,10 +11,30 @@
     <h3>Pick a Target</h3>
 
     <div class="tabs">
-        <button class="tablink" onclick="hackCity">Moscow</button>
-        <button class="tablink" onclick="hackCity">London</button>
-        <button class="tablink" onclick="hackCity">New York</button>
-        <button class="tablink" onclick="hackCity">Rio</button>
+        <button class="tablink" onclick="hackCity(event,'Moscow')" >Moscow</button>
+        <button class="tablink" onclick="hackCity(event,'London')">London</button>
+        <button class="tablink" onclick="hackCity(event,'New-York')">New-York</button>
+        <button class="tablink" onclick="hackCity(event,'Rio')">Rio</button>
+    </div>
+
+    <div id="Moscow" class="tabcontent">
+        <h2>Moscow</h2>
+        <p>Claim the capital city of Russia with Ransomware</p>
+    </div>
+
+    <div id="London" class="tabcontent">
+        <h2>London</h2>
+        <p>Hack the capital city of England with Trojanware</p>
+    </div>
+    
+    <div id="New-York" class="tabcontent">
+        <h2>New-York</h2>
+        <p>Slow down productivity in the this busy city to steal apples</p>
+    </div>
+    
+    <div id="Rio" class="tabcontent">
+        <h2>Rio</h2>
+        <p>Shutdown all broadcasting channels by 15h00 so nobody watchs Football</p>
     </div>
 </body>
 </html>

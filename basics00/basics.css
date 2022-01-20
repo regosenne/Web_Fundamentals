@@ -1,3 +1,30 @@
+:root {
+    --green: #00FF00;
+}
+
+.tab {
+    overflow: hidden;
+    border: 3px solid;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid;
+    border-top: none;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    cursor: pointer;
+    padding: auto;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
 body {
     background-color:#e75480;
 }
