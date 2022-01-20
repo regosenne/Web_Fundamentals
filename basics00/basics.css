@@ -3,7 +3,7 @@
     --misty: #5c6164;
 }
 
-.tab {
+.tabs {
     overflow: hidden;
     border: 3px solid;
 }
@@ -35,6 +35,11 @@ button:active {
     background-color: blue;
 }
 
+hr.split-line {
+    border: 10px solid var(--green);
+    border-radius: 5px;
+}
+
 h1 {
     color : var(--green);
 }
@@ -42,3 +47,4 @@ h1 {
 body {
     background-color: var(--misty);
 }
+
