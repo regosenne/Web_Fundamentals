@@ -3,11 +3,7 @@ function hackCity(evt, cityName){
 
     tabcontent = document.getElementsByClassName("tabcontent");
     for(counter = 0; counter < tabcontent.length; counter++){
-        // if (tabcontent[counter].style.display === "none") {
-            // tabcontent[counter].style.display = "block";
-        // }else {
-            tabcontent[counter].style.display = "none";
-        // }
+        tabcontent[counter].style.display = "none";
         document.getElementById(cityName).style.display = "block";
     }
     
